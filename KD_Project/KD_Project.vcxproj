@@ -1,0 +1,328 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="CSG_Debug|Win32">
+      <Configuration>CSG_Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9F4CF0F5-A2E6-4575-80DB-8A0B321E449F}</ProjectGuid>
+    <RootNamespace>KD_Project</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+    <WindowsTargetPlatformVersion>7</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='CSG_Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+    <PlatformToolset>v140_xp</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+    <PlatformToolset>v140_xp</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='CSG_Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <EmbedManifest>true</EmbedManifest>
+    <GenerateManifest>true</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='CSG_Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <EmbedManifest>true</EmbedManifest>
+    <GenerateManifest>true</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>
+      </AdditionalDependencies>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='CSG_Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_STD_CSG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>
+      </AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <MinimumRequiredVersion>5.01</MinimumRequiredVersion>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+    <None Include="ClassDiagram3.cd" />
+    <None Include="ReadMe.txt" />
+    <None Include="res\GroupBackColor.png" />
+    <None Include="res\KD_Project.ico" />
+    <None Include="res\KD_Project.rc2" />
+    <None Include="res\KD_ProjectDoc.ico" />
+    <None Include="res\Test.bmp" />
+    <None Include="res\Toolbar.bmp" />
+    <None Include="res\Toolbar256.bmp" />
+    <None Include="UserImages.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AccessData.h" />
+    <ClInclude Include="APDUdata.h" />
+    <ClInclude Include="CDTL2007.h" />
+    <ClInclude Include="CDTL645.H" />
+    <ClInclude Include="ChildFrm.h" />
+    <ClInclude Include="CKQTabViewTPshow.h" />
+    <ClInclude Include="CKQViewConfig.h" />
+    <ClInclude Include="CKQViewErrTab.h" />
+    <ClInclude Include="CKQViewTabErrMet.h" />
+    <ClInclude Include="CKQViewTabErrMod.h" />
+    <ClInclude Include="CKQViewTPShowOldData.h" />
+    <ClInclude Include="CKQViewUpdata.h" />
+    <ClInclude Include="cSerBuf_LoopRcv.h" />
+    <ClInclude Include="CSG13762.h" />
+    <ClInclude Include="DIALOGF1F0TIMEOUT.h" />
+    <ClInclude Include="DialogSyncNodeFile.h" />
+    <ClInclude Include="DisplayData.h" />
+    <ClInclude Include="Dlg13762Frame.h" />
+    <ClInclude Include="Dlg13762UpdataConfig.h" />
+    <ClInclude Include="DlgAddress.h" />
+    <ClInclude Include="DlgCCOTPchange.h" />
+    <ClInclude Include="DlgCKQUpdataTime.h" />
+    <ClInclude Include="DlgConnection.h" />
+    <ClInclude Include="DlgExtReadMeter.h" />
+    <ClInclude Include="DlgExtStaDevStatus.h" />
+    <ClInclude Include="DlgExtStaVersion.h" />
+    <ClInclude Include="DlgFile.h" />
+    <ClInclude Include="DlgNetTP.h" />
+    <ClInclude Include="DlgOldTPMessage.h" />
+    <ClInclude Include="DlgSaveDebugInfo.h" />
+    <ClInclude Include="DlgSaveNodeInfo.h" />
+    <ClInclude Include="DlgSelect.h" />
+    <ClInclude Include="DlgXYData.h" />
+    <ClInclude Include="DLT698_45.h" />
+    <ClInclude Include="Form698.h" />
+    <ClInclude Include="FormTabView1.h" />
+    <ClInclude Include="Frame3762.h" />
+    <ClInclude Include="FrameSetNet.h" />
+    <ClInclude Include="FrameShowWnd.h" />
+    <ClInclude Include="FView3762.h" />
+    <ClInclude Include="GlobalVar.h" />
+    <ClInclude Include="gPublicObjct.h" />
+    <ClInclude Include="GW13762.h" />
+    <ClInclude Include="KD_Project.h" />
+    <ClInclude Include="KD_ProjectDoc.h" />
+    <ClInclude Include="KD_ProjectView.h" />
+    <ClInclude Include="LogFile.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="MainTestDoc.h" />
+    <ClInclude Include="MainTestFrame.h" />
+    <ClInclude Include="MidNetForm.h" />
+    <ClInclude Include="MyFrameMsgTabCtrl.h" />
+    <ClInclude Include="MyFunLib.h" />
+    <ClInclude Include="MyListCtrl.h" />
+    <ClInclude Include="NetViewPToP.h" />
+    <ClInclude Include="NetViewRepeat.h" />
+    <ClInclude Include="NetViewTPShow.h" />
+    <ClInclude Include="PhaseValue698.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="RightTabView.h" />
+    <ClInclude Include="SetWriteDataDlg.h" />
+    <ClInclude Include="SetWriteLoopNub.h" />
+    <ClInclude Include="SimJZQ.h" />
+    <ClInclude Include="SimMeter.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="Tools.h" />
+    <ClInclude Include="TPDlgJDMsg.h" />
+    <ClInclude Include="TPDlgShowExplian.h" />
+    <ClInclude Include="TPShowFindList.h" />
+    <ClInclude Include="User_Ack_Def.h" />
+    <ClInclude Include="User_Fun_Def.h" />
+    <ClInclude Include="User_gDefine.h" />
+    <ClInclude Include="User_Mcu_Cfg.h" />
+    <ClInclude Include="View698.h" />
+    <ClInclude Include="ViewLetTree.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AccessData.cpp" />
+    <ClCompile Include="APDUdata.cpp" />
+    <ClCompile Include="CDTL2007.cpp" />
+    <ClCompile Include="CDTL645.cpp" />
+    <ClCompile Include="ChildFrm.cpp" />
+    <ClCompile Include="CKQTabViewTPshow.cpp" />
+    <ClCompile Include="CKQViewConfig.cpp" />
+    <ClCompile Include="CKQViewErrTab.cpp" />
+    <ClCompile Include="CKQViewTabErrMet.cpp" />
+    <ClCompile Include="CKQViewTabErrMod.cpp" />
+    <ClCompile Include="CKQViewTPShowOldData.cpp" />
+    <ClCompile Include="CKQViewUpdata.cpp" />
+    <ClCompile Include="cSerBuf_LoopRcv.cpp" />
+    <ClCompile Include="CSG13762.cpp" />
+    <ClCompile Include="DIALOGF1F0TIMEOUT.cpp" />
+    <ClCompile Include="DialogSyncNodeFile.cpp" />
+    <ClCompile Include="DisplayData.cpp" />
+    <ClCompile Include="Dlg13762Frame.cpp" />
+    <ClCompile Include="Dlg13762UpdataConfig.cpp" />
+    <ClCompile Include="DlgAddress.cpp" />
+    <ClCompile Include="DlgCCOTPchange.cpp" />
+    <ClCompile Include="DlgCKQUpdataTime.cpp" />
+    <ClCompile Include="DlgConnection.cpp" />
+    <ClCompile Include="DlgExtReadMeter.cpp" />
+    <ClCompile Include="DlgExtStaDevStatus.cpp" />
+    <ClCompile Include="DlgExtStaVersion.cpp" />
+    <ClCompile Include="DlgFile.cpp" />
+    <ClCompile Include="DlgNetTP.cpp" />
+    <ClCompile Include="DlgOldTPMessage.cpp" />
+    <ClCompile Include="DlgSaveDebugInfo.cpp" />
+    <ClCompile Include="DlgSaveNodeInfo.cpp" />
+    <ClCompile Include="DlgSelect.cpp" />
+    <ClCompile Include="DlgXYData.cpp" />
+    <ClCompile Include="DLT698_45.cpp" />
+    <ClCompile Include="Form698.cpp" />
+    <ClCompile Include="FormTabView1.cpp" />
+    <ClCompile Include="Frame3762.cpp" />
+    <ClCompile Include="FrameSetNet.cpp" />
+    <ClCompile Include="FrameShowWnd.cpp" />
+    <ClCompile Include="FView3762.cpp" />
+    <ClCompile Include="GlobalVar.cpp" />
+    <ClCompile Include="gPublicObject.cpp" />
+    <ClCompile Include="GW13762.cpp" />
+    <ClCompile Include="KD_Project.cpp" />
+    <ClCompile Include="KD_ProjectDoc.cpp" />
+    <ClCompile Include="KD_ProjectView.cpp" />
+    <ClCompile Include="LogFile.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="MainTestDoc.cpp" />
+    <ClCompile Include="MainTestFrame.cpp" />
+    <ClCompile Include="MidNetForm.cpp" />
+    <ClCompile Include="MyFrameMsgTabCtrl.cpp" />
+    <ClCompile Include="MyFunLib.cpp" />
+    <ClCompile Include="MyListCtrl.cpp" />
+    <ClCompile Include="NetViewPToP.cpp" />
+    <ClCompile Include="NetViewRepeat.cpp" />
+    <ClCompile Include="NetViewTPShow.cpp" />
+    <ClCompile Include="PhaseValue698.cpp" />
+    <ClCompile Include="RightTabView.cpp" />
+    <ClCompile Include="SetWriteDataDlg.cpp" />
+    <ClCompile Include="SetWriteLoopNub.cpp" />
+    <ClCompile Include="SimJZQ.cpp" />
+    <ClCompile Include="SimMeter.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='CSG_Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Tools.cpp" />
+    <ClCompile Include="TPDlgJDMsg.cpp" />
+    <ClCompile Include="TPDlgShowExplian.cpp" />
+    <ClCompile Include="TPShowFindList.cpp" />
+    <ClCompile Include="View698.cpp" />
+    <ClCompile Include="ViewLetTree.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="KD_Project.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="KD_Project.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

@@ -1,0 +1,494 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="UserImages.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\KD_Project.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\KD_ProjectDoc.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\KD_Project.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Toolbar.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Toolbar256.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Test.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+    <None Include="res\GroupBackColor.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="ClassDiagram3.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="KD_Project.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ChildFrm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="KD_ProjectDoc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="KD_ProjectView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FView3762.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Frame3762.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameSetNet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgAddress.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="View698.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Form698.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DLT698_45.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="APDUdata.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AccessData.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgXYData.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SetWriteDataDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RightTabView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FormTabView1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NetViewTPShow.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NetViewPToP.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalVar.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cSerBuf_LoopRcv.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="User_Ack_Def.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="User_Fun_Def.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="User_Mcu_Cfg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewLetTree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="gPublicObjct.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SimJZQ.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SimMeter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CDTL2007.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GW13762.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MidNetForm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgNetTP.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg13762UpdataConfig.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CDTL645.H">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyFunLib.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LogFile.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NetViewRepeat.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgConnection.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DisplayData.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameShowWnd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyFrameMsgTabCtrl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyListCtrl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgCCOTPchange.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TPDlgJDMsg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TPDlgShowExplian.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg13762Frame.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MainTestFrame.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MainTestDoc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PhaseValue698.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TPShowFindList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CKQViewConfig.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CKQViewUpdata.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CKQViewErrTab.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CKQViewTabErrMod.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CKQViewTabErrMet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CKQTabViewTPshow.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CKQViewTPShowOldData.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgOldTPMessage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgCKQUpdataTime.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SetWriteLoopNub.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CSG13762.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgSelect.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgSaveDebugInfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgExtStaVersion.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgSaveNodeInfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgExtStaDevStatus.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgExtReadMeter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgFile.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogSyncNodeFile.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="User_gDefine.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DIALOGF1F0TIMEOUT.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="KD_Project.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ChildFrm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="KD_ProjectDoc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="KD_ProjectView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgConnection.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FView3762.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Frame3762.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameSetNet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgAddress.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="View698.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Form698.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DLT698_45.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="APDUdata.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AccessData.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgXYData.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SetWriteDataDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RightTabView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FormTabView1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NetViewTPShow.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NetViewPToP.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalVar.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cSerBuf_LoopRcv.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewLetTree.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="gPublicObject.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SimJZQ.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SimMeter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CDTL2007.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GW13762.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MidNetForm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgNetTP.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg13762UpdataConfig.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CDTL645.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyFunLib.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LogFile.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NetViewRepeat.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DisplayData.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameShowWnd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyFrameMsgTabCtrl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyListCtrl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgCCOTPchange.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TPDlgJDMsg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TPDlgShowExplian.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg13762Frame.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MainTestFrame.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MainTestDoc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PhaseValue698.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TPShowFindList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CKQViewConfig.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CKQViewUpdata.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CKQViewErrTab.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CKQViewTabErrMod.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CKQViewTabErrMet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CKQTabViewTPshow.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CKQViewTPShowOldData.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgOldTPMessage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgCKQUpdataTime.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SetWriteLoopNub.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CSG13762.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgSelect.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgSaveDebugInfo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgExtStaVersion.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgSaveNodeInfo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgExtStaDevStatus.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgExtReadMeter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgFile.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogSyncNodeFile.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DIALOGF1F0TIMEOUT.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="KD_Project.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
